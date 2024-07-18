@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package main;
+
+option go_package = "/proto";
+
+message MIMEHeaders {
+  map<string, string> headers = 1;
+}
+
